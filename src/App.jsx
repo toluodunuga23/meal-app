@@ -6,7 +6,6 @@ import Header from './components/custom/Header';
 // import List from "./components/List/List";
 import Map from "./components/Map/Map";
 import theme from "./Theme"; // Import your theme
-import { getPlacesData } from "./api/Index";
 import { Button } from "./components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import "./App.css";
