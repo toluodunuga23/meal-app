@@ -3,8 +3,6 @@ import React, { useEffect } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Grid, ThemeProvider } from "@mui/material";
 import Header from './components/custom/Header';
-// import List from "./components/List/List";
-import Map from "./components/Map/Map";
 import theme from "./Theme"; // Import your theme
 import { Button } from "./components/ui/button";
 import { Calendar } from "@/components/ui/calendar";

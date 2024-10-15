@@ -49,7 +49,7 @@ function CreateMeal() {
                     activeCategory === 'Home Cooked'
                         ? 'home-cooked'
                         : activeCategory === 'Restaurant'
-                        ? 'Restaurant'
+                        ? 'restaurant'
                         : ''
                     }`
                 )

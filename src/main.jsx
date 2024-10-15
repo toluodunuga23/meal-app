@@ -12,6 +12,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import ViewMeal from './view-meal/[mealId]/index.jsx';
 import path from 'path';
+import FindRestaurant from './find-restaurant/index.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,12 @@ const router = createBrowserRouter([
     path: '/create-meal/home-cooked',
     element: <CreateHome />,
   },
+
+  {
+    path: '/create-meal/restaurant',
+    element: <FindRestaurant/>,
+  },
+
 
 
   {
