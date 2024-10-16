@@ -164,6 +164,31 @@ const CreateForm = () => {
     onError: (error) => console.log(error),
   });
 
+
+
+  const GetUserProfile = async (tokenInfo) => {
+    axios
+      .get(
+        `https://www.googleapis.com/oauth2/v1/userinfo?access_token=${tokenInfo?.access_token}`,
+        {
+          headers: {
+            Authorization: `Bearer ${tokenInfo?.access_token}`,
+            Accept: "application/json",
+          },
+        }
+      )
+      .then((response) => {
+        console.log(response);
+        localStorage.setItem("user", JSON.stringify(response?.data));
+        setOpenDialog(false);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+
+
   const SaveMeal = async (MealData) => {
     setLoading(true);
     const docId = Date.now().toString();
