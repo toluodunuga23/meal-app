@@ -20,8 +20,8 @@ function CreateMeal() {
     <>
       <Header />
       <div className="sm:px-10 md:px-32 lg:px-56 xl:px-10 px-5 mt-10  ">
-        <h2 className="font-bold text-3xl">Choose the following Meal Options</h2>
-        <div className="grid grid-cols-3 gap-10 mt-7 bg-color">
+        <h2 className="font-bold text-3xl  flex flex-col items-center">Choose the following Meal Options</h2>
+        <div className="grid grid-cols-2 gap-10 mt-7 bg-color flex flex-col items-center">
           {MealType.map((option) => (
             <Card
               key={option.id}
