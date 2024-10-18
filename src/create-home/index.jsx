@@ -109,8 +109,8 @@ const CreateForm = () => {
     },
 
     {
-      value: "Jamacian",
-      label: "Jamcian",
+      value: "Jamaican",
+      label: "Jamaican",
     },
 
     {
@@ -124,9 +124,22 @@ const CreateForm = () => {
     },
 
     {
-      value:"Ecudorian",
-      label:"Ecudorian",
+      value:"Ecuadorian",
+      label:"Ecuadorian",
     },
+
+    {
+      value:"Chinese",
+      label:"Chinese",
+    },
+    {
+      value:"Mexican",
+      label:"Mexican",
+    },
+    {
+      value:"Korean",
+      label:"Korean",
+    }
 
 
 
