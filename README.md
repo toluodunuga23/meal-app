@@ -22,6 +22,7 @@ npm install
 touch .env
 ```
 
+
 ### Step 4: Firebase Setup
 
 1. Go to the [Firebase Console](https://console.firebase.google.com/), log in, and create a new project for the web.
